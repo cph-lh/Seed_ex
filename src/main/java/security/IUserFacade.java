@@ -21,6 +21,8 @@ public interface IUserFacade {
 
     IUser getUserByUserId(String id);
     
+    IUser getUserByUserName(String userName);
+    
     IUser addUser(User user);
     
 }
